@@ -143,3 +143,17 @@ table {
         margin-bottom: 25px;
     }
 }
+
+@media screen and (max-width: 1920px) {
+    .image-container img {
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+        position:relative;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        border: 3px solid forestgreen;
+        margin-bottom: 25px;
+    }
+}

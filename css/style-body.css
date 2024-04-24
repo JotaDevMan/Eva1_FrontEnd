@@ -126,3 +126,20 @@ footer {
 .emeil-format:hover{
     color: rgb(0, 187, 255);  
 }
+
+@media (max-width: 475px){
+    nav a{
+        margin-left: 10px;
+        padding: 10px;
+    }
+    #logo_lechuza{
+        padding-left: 2;
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    nav{
+        padding-top: 0px;
+    }
+}
