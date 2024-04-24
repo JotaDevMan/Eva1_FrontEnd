@@ -1,0 +1,131 @@
+main { 
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+#cuerpo-de-pag{
+    padding: 20px 30px;
+    background-color: #9ebc9fd5;
+    margin: 20px 50px;
+    border-radius: 1%;
+    width: 80%;
+}
+
+.text-extra{
+    margin: 50px auto;
+    width: 80%;
+}
+
+.alimentacion-info-img{
+    margin: 50px auto;
+    width: 80%;
+}
+
+.reproduccion-info-img{
+    margin: 50px auto;
+    width: 80%;
+}
+
+.conservacion-info-img{
+    margin: 50px auto;
+    width: 80%;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 100%;
+    overflow: hidden;
+    float: right;
+    max-width: 320px;
+}
+
+.lechuza_comiendo {
+    width: 200px;
+    max-width: 320px;
+    margin-bottom: 25px;
+    height: auto;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 3px solid forestgreen;
+}
+
+.familia_lechuza{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    position:relative;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 3px solid forestgreen;
+    margin-bottom: 25px;
+}
+
+.lechuza_despeinada{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    position:relative;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 3px solid forestgreen;
+    margin-bottom: 25px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    width: 20%;  /* Ajusta según necesidades */
+}
+th {
+    background-color: #5c5751;
+    color: rgb(218, 216, 216);
+}
+tbody tr:nth-child(odd) {
+    background-color: #34b072;
+}
+tbody tr:nth-child(even) {
+    background-color: #2b905d;
+}
+tbody tr:hover {
+    background-color: #0ed88b;
+}
+table {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    
+    border-collapse: collapse;
+}
+
+.container_table {
+    overflow-x: auto;  
+    margin: 50px 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); 
+    
+    width: 80%;
+}
+
+.container_table_center{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 5px;  
+        font-size: 12px;  
+    }
+    table{
+        width: 80%;
+    }
+}

@@ -1,0 +1,90 @@
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto-literario {
+    flex: 1;
+    margin: 10px;
+}
+
+
+.postura-pagina {
+    width: 80%;
+    background-color: #9ebc9fd5;
+    border-radius: 10px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.seccion {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 40px;
+}
+
+.image-container {
+    flex: 0 0 200px; 
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    
+}
+
+.alimentacion_info {
+    text-decoration: none;
+    color: #222f3e;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.2s, color 0.2s; 
+    display: inline-block;
+    padding-left: 5px;
+    color: rgb(165, 255, 61);
+}
+
+.alimentacion_info:hover {
+    border-color: forestgreen; 
+    color: rgb(154, 251, 9);
+    text-shadow: 0 0 8px rgb(51, 139, 6);
+}
+
+.reproduccion_lechuza{
+    text-decoration: none;
+    color: #222f3e;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.2s, color 0.2s; 
+    display: inline-block;
+    padding-left: 5px;
+    color: rgb(165, 255, 61);
+}
+
+.reproduccion_lechuza:hover {
+    border-color: forestgreen; 
+    color: rgb(154, 251, 9);
+    text-shadow: 0 0 8px rgb(51, 139, 6);
+}
+
+.lechuza_chilena{
+    text-decoration: none;
+    color: #222f3e;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.2s, color 0.2s; 
+    display: inline-block;
+    padding-left: 5px;
+    color: rgb(165, 255, 61);
+}
+
+.lechuza_chilena:hover {
+    border-color: forestgreen; 
+    color: rgb(154, 251, 9);
+    text-shadow: 0 0 8px rgb(51, 139, 6);
+}

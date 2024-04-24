@@ -1,0 +1,128 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: #222f3e;
+    background-color: rgba(0, 99, 93);
+}
+nav{
+    background-color: rgb(46, 90, 138);
+    padding: 25px ;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: center;
+}
+
+#logo_lechuza{
+    flex-shrink: 0;
+    position:absolute;
+    left: 0px;
+    top: 0;
+    height: 40px;
+    padding: 15px 20px 4px 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: flex;
+    transform: scaleX(-1);
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(224, 226, 225);
+    padding: 25px;
+    margin: 0px 0px 0px 30px;
+    transition: 0.2s;
+}
+
+nav a.boton-var:hover{
+    background-color: rgba(217, 161, 58, 0.8);
+    color: rgb(0, 255, 85);
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-image: url(/img/lechuza_baner.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header h1 {
+    color: rgb(0, 0, 0); 
+    text-shadow: 0 0 8px rgba(255, 166, 0, 0.8); 
+}
+
+
+
+
+footer {
+    color: whitesmoke;
+    background-color: rgb(0, 41, 38);
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer-maximo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.footer-maximo .contenido-footer{
+    margin: 10px 40px; 
+    
+}
+
+.contenido-footer{
+    flex:1;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    margin: 20px;
+}
+
+.contenido-footer p{
+    margin: auto;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-maximo {
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+        margin: 0; 
+    }
+    
+    .footer-maximo .contenido-footer {
+        margin: 10px 0;
+        width: 80%;
+        text-align: left; 
+        
+    }
+}
+
+.title-footer-colums{
+    color: rgb(23, 234, 0);
+    text-shadow: 0 0 8px rgb(154, 251, 9);
+    
+}
+
+.emeil-format{
+    text-decoration: none;
+    color: goldenrod;
+    text-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+.emeil-format:hover{
+    color: rgb(0, 187, 255);  
+}
