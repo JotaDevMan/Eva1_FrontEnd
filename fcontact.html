@@ -24,12 +24,18 @@
     <main>
         <form class="container_form">
             <h3>Indique sus datos para poder contactarse con nosotros.</h3>
-            <input class="form-datos" type="text" name="nombres" placeholder="Ingrese su nombre" required>
-            <input class="form-datos" type="text" name="apellidos" placeholder="Ingrese su apellido" required>
-            <input class="form-datos" type="email" name="correo" placeholder="Ingrese su correo" required>
-            <p>Fecha de nacimiento.</p>
-            <input id="date" class="form-datos" type="date" name="fecha_nacimiento " required>
-            <input class="form-button" type="submit" value="Enviar">
+            <div class="group-label-imput">
+                <label for="nombres">Nombre:</label>
+                <input class="form-datos" type="text" name="nombres" placeholder="Ingrese su nombre" required>
+                <label for="apellidos">Apellido:</label>
+                <input class="form-datos" type="text" name="apellidos" placeholder="Ingrese su apellido" required>
+                <label for="correo">Correo electrónico:</label>
+                <input class="form-datos" type="email" name="correo" placeholder="Ingrese su correo" required>
+                <label for="date-age">Fecha de nacimiento.</label>
+                <input id="date" class="form-datos" type="date" name="fecha_nacimiento " required>
+            </div>
+                <input class="form-button" type="submit" value="Enviar">
+           
         </form>
     </main>
     <footer>

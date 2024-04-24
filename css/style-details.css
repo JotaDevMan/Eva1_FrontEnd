@@ -85,7 +85,7 @@ th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
-    width: 20%;  /* Ajusta según necesidades */
+    width: 20%;  
 }
 th {
     background-color: #5c5751;
@@ -127,5 +127,19 @@ table {
     }
     table{
         width: 80%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .image-container img {
+        width: 250px;
+        max-width: 100%;
+        height: auto;
+        position:relative;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        border: 3px solid forestgreen;
+        margin-bottom: 25px;
     }
 }

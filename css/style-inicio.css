@@ -28,16 +28,25 @@ main{
 }
 
 .image-container {
-    flex: 0 0 200px; 
     display: flex;
-    justify-content: flex-end;
-    margin: 20px;
+    align-items: center;
+    justify-content: left;
+    max-width: 100%;
+    overflow: hidden;
+    float: right;
+    max-width: 320px;
 }
 
 .image-container img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #000000;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    position:relative;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 3px solid forestgreen;
+    margin-bottom: 25px;
     
 }
 
@@ -87,4 +96,18 @@ main{
     border-color: forestgreen; 
     color: rgb(154, 251, 9);
     text-shadow: 0 0 8px rgb(51, 139, 6);
+}
+
+@media screen and (min-width: 1080px) {
+    .image-container img {
+        width: 700px;
+        max-width: 100%;
+        height: auto;
+        position:relative;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        border: 3px solid forestgreen;
+        margin-bottom: 25px;
+    }
 }

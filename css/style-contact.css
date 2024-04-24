@@ -1,7 +1,8 @@
-mein{
+main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex: 1;
 }
 
 .container_form{
@@ -46,6 +47,7 @@ mein{
     background-color: rgb(171, 246, 166);
     padding: 10px 0px 10px 10px;
     border-radius: 3px;
+    margin-top: 10px;
     margin-bottom: 15px;
     border: 2px solid rgb(22, 22, 22);
     font-size: 15px;
@@ -85,6 +87,14 @@ mein{
     transform: scale(1.1); 
     box-shadow: 0 0 10px rgba(46, 204, 113, 0.5); 
 }
+
+label{
+    color: rgb(24, 255, 197);
+    font-size: 17px;
+    text-shadow: 0 0 8px rgb(46, 124, 1);
+    
+}
+
 
 #date[type="date"]::-webkit-calendar-picker-indicator {
     width: 100%;
